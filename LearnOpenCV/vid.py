@@ -1,11 +1,11 @@
+#  Basic Opencv Syntax
+
 import cv2 as cv
 import matplotlib.pyplot as plt
 
 # video = sequence of image
-# Frame Per Secont (FPS) : number of image per secont 
-
+# Frame Per Secont (FPS) : number of image per secont
 cap = cv.VideoCapture(0)
-
 while True:
     status,frame = cap.read()
     frame = cv.flip(frame, 1)
@@ -20,5 +20,4 @@ while True:
             break
     else:
         break
-
 cv.destroyAllWindows()
