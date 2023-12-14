@@ -1,0 +1,29 @@
+*{
+    margin:5px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+section{
+    border: 1px solid black;
+    border-radius: 12px;
+    position: relative;
+}
+.box{
+    width: 100px;
+    height: 100px;
+}
+.div1{
+    background-color: aquamarine;
+    transform: translate(15px,50px);
+}
+.div2{
+    background-color: purple;
+    transform: rotate(40deg);
+}
+.div3{
+    background-color: peru;
+    transform: scale(0.5,0.5);
+}
+.div4{
+   background-color: greenyellow;
+}

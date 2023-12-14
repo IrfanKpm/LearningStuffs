@@ -1,0 +1,16 @@
+*{
+    margin:5px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+section{
+    border: 1px solid black;
+    border-radius: 12px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(3,1fr);
+    grid-gap: 10px;
+}
+.box{
+    border: 1px solid red;
+}

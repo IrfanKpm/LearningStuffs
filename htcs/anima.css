@@ -1,0 +1,41 @@
+*{
+    margin:5px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+body{
+    background-color: aqua;
+}
+.box{
+    margin-top: 20vh;
+    margin-left: 15vw;
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    animation: BoxExpand 2.5s linear 1s infinite;
+}
+.box:hover{
+    animation-play-state: paused;
+    transform: rotate(45deg);
+    background-color: rgb(101, 244, 6);
+    opacity: 75%;
+}
+
+
+@keyframes BoxExpand {
+    0% {
+      width: 200px;
+    }
+    25%{
+        width: 600px; 
+    }
+    50% {
+      width: 1000px;
+    }
+    75%{
+        width: 600px;
+    }
+    100% {
+        width: 200px;
+    }
+}

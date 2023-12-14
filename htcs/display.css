@@ -1,0 +1,25 @@
+*{
+    margin:5px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+li{
+    display: inline;
+    padding: 10px;
+    background-color: yellowgreen;
+}
+.dis-N{
+    display: None;
+}
+.vis-H{
+    visibility: hidden;
+}
+.flu{
+    margin-top: 100px;
+    background-color: grey;
+    padding: 25px;
+    border-radius: 8px;
+}
+.flu li{
+    border-radius: 8px;
+}

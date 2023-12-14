@@ -1,0 +1,78 @@
+*{
+    margin:0;
+    padding: 5px;
+    box-sizing: border-box;
+}
+/* POSITION       */
+.overflw{
+    margin:10px 10px;
+    padding:10px 10px;
+    width: 60vw;
+    height: 15vh;
+    background-color:rgb(162, 255, 0) ;
+    overflow: auto;
+}
+.postn{
+    width: 90vw;
+    height: 50vh;
+    margin: 20px;
+    padding: 15px;
+    background-color: aquamarine;
+}
+.div1{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    margin: 3px;
+    position: relative; /*  postion > static(default values),relative,   */
+    left: 80px;
+    top: 30px;
+}
+.div2{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    margin: 3px;
+
+}
+.div3{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(126, 128, 0);
+    margin: 3px;
+    position: absolute; /* parent is body tag | (parent :: postion:relative;)  */
+    top: 0px;
+}
+.div4{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(214, 13, 130);
+    margin: 3px;
+}
+.div5{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 3px;
+    position: fixed;
+    right: 0;
+}
+/*  Pseudo  */
+#hov:hover{
+   color: blueviolet;
+   font-size: 40px;
+}
+#act:active{
+    color:blue
+}
+h2::first-letter{
+    color: blue;
+    font-size: 45px;
+}
+p::first-line{
+    color: red;
+}
+p::selection{
+    color:white;
+    background-color: black;
+}
